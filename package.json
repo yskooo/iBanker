@@ -1,10 +1,10 @@
 {
-  "name": "analytics-ui",
+  "name": "iBanker",
   "description": "Analytics UI created with Nuxt 3 + Tailwind CSS",
   "version": "0.0.1",
   "author": {
-    "name": "Behon Baker",
-    "email": "behon.baker@yahoo.com",
+    "name": "",
+    "email": "",
     "url": "https://behonbaker.com"
   },
   "scripts": {

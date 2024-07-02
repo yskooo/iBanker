@@ -20,9 +20,10 @@
 
 <script setup lang="ts">
   const reminders = [
-    { title: "Call John", time: "10:00 AM" },
-    { title: "Meeting with Jane", time: "11:00 AM" },
-    { title: "Call Sally", time: "12:00 PM" },
-    { title: "Lunch with Sarah", time: "1:00 PM" },
+    { title: "Meet Madrid", time: "10:00 AM" },
+    { title: "Meet Jane", time: "11:00 AM" },
+    { title: "Call Elon", time: "12:00 PM" },
+    { title: "Power Nap", time: "1:00 PM" },
+    { title: "Back to Work", time: "1:30 PM" },
   ];
 </script>

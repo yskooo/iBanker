@@ -14,12 +14,12 @@
         </button>
         <!-- Logo -->
         <img
-          src="https://img.logoipsum.com/296.svg"
+          src="https://media.licdn.com/dms/image/C560BAQG2qcTDTXb_dg/company-logo_200_200/0/1630622081382?e=1727913600&v=beta&t=8qSnHqoTr3Cz9vktgh-YsmauJ5Er0Bq1z1Fz-KZl4Dc"
           alt="Analytics logo"
           class="h-7 w-7 object-contain"
         />
         <!-- Page title -->
-        <NuxtLink class="text-xl font-bold" to="/">Analytics</NuxtLink>
+        <NuxtLink class="text-xl font-bold" to="/">iBanker</NuxtLink>
       </div>
 
       <!-- Right side of header -->
@@ -37,7 +37,7 @@
             class="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border bg-background"
           >
             <img
-              src="https://randomuser.me/api/portraits/med/men/75.jpg"
+              src="https://avatars.githubusercontent.com/u/90546802?v=4"
               alt="Logged in user"
               class="h-full w-full"
             />
@@ -47,9 +47,9 @@
               class="absolute right-0 z-10 mt-3 w-48 rounded-md border bg-background focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
               <div class="border-b px-3 py-1.5 text-sm">
-                <p class="font-semibold">Hello John</p>
+                <p class="font-semibold">Hello, Harold</p>
                 <a href="mailto:johndoe@test.com" class="leading-none text-muted-foreground"
-                  >johndoe@test.com</a
+                  >harold@icloud.com</a
                 >
               </div>
               <div class="p-1">
@@ -86,7 +86,7 @@
     { title: "Profile" },
     { title: "Billing" },
     { title: "Settings" },
-    { title: "Team members" },
+    { title: "Human Resource" },
     { title: "Sales" },
     { divider: true },
     { title: "Logout" },

@@ -1,6 +1,6 @@
 <template>
   <section class="mt-5">
-    <p class="font-bold">New customers</p>
+    <p class="font-bold">Ventures</p>
     <div
       class="mt-5 flex w-full items-start gap-6 overflow-x-auto rounded-lg border bg-background px-5 py-5 scrollbar-thin scrollbar-thumb-input scrollbar-thumb-rounded-md"
     >
@@ -21,7 +21,7 @@
           />
           <div class="text-center">
             <p class="text-sm font-semibold">{{ n.name.first }} {{ n.name.last }}</p>
-            <p class="text-xs text-muted-foreground">10 mins ago</p>
+            <p class="text-xs text-muted-foreground">Yesterday</p>
           </div>
         </div>
       </template>
@@ -32,7 +32,7 @@
 <script setup lang="ts">
   const { data } = await useAsyncData(
     "new-customers",
-    () => $fetch("https://randomuser.me/api/?results=20"),
+    () => $fetch("https://randomuser.me/api/?results=7"),
     {
       default: () => [],
       transform: (data: any) => data.results,

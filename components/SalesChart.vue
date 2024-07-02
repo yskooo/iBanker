@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-5">
-    <p class="font-bold">Sales over time</p>
+  <div class="mt-10">
+    <p class="font-bold">Market Index</p>
     <div class="mt-5 h-[300px] rounded-lg border bg-background md:p-3">
       <Line :data="data" :options="options" />
     </div>
@@ -64,7 +64,7 @@
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
       {
-        label: "Sales over time",
+        label: "Profit",
         backgroundColor: colors.background,
         tension: 0.4,
         borderColor: colors.blue[500],
